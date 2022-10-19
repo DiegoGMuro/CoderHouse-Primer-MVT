@@ -22,6 +22,6 @@ from familiar.views import create_familiar
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", include("home.urls")),
-    path("create_familiar/<str:name>/<str:last_name>/<str:email>/<int:age>/<str:birthday>", create_familiar),
+    path("create_familiar/<str:name>/<str:last_name>/<str:email>/<int:age>/<str:birthday>", create_familiar, ),
     path("familiar/", include("familiar.urls")),
 ]

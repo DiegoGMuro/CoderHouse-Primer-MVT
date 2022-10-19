@@ -56,7 +56,7 @@ ROOT_URLCONF = 'tp_familiares.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["C:/Users/Diego/desktop/coder/primer_mvt/tp_familiares/templates"], #template del proyecto
+        'DIRS': ["C:/Users/Diego/Desktop/CODER/primer_mvt - Copy/tp_familiares/templates"], #template del proyecto
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
